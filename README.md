@@ -18,12 +18,17 @@ Technical Details:
 
 Model and Training
 Model: YOLOv8 (You Only Look Once, version 8)
+
 Training Data: Custom dataset including classes such as Excavator, Gloves, Construction-Hat, Ladder, Mask, NO-Construction-Hat, NO-Mask, NO-Safety-Vest, Person, and various vehicles.
 
 Class Names:
+
 ['Excavator', 'Gloves', 'Construction-Hat', 'Ladder', 'Mask', 'NO-Construction-Hat', 'NO-Mask', 'NO-Safety-Vest', 'Person', 'SUV', 'Safety-Cone', 'Safety-Vest', 'Bus', 'Dump-Truck', 'Fire-Hydrant', 'Machinery', 'Mini-van', 'Sedan', 'Semi', 'Trailer', 'Truck and Trailer', 'Truck', 'Van', 'Vehicle', 'Wheel Loader']
 
-Tools and Libraries
+Tools and Libraries:
+
 YOLO: ultralytics
+
 OpenCV: Open Source Computer Vision Library
+
 cvzone: A high-level OpenCV library for easier computer vision application development
